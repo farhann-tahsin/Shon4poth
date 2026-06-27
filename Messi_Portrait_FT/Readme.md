@@ -19,12 +19,10 @@ A visualization of Lionel Messi's portrait drawn using Fourier Transform epicycl
 ## Tips to Speed it Up
 
 - Increase the step in `range(0, NUM_FRAMES, 150)` currently skips 150 frames at a time, increase to `300` or `500` for faster but rougher animation
-- Reduce the number of epicycles by slicing: `coefficients = coefficients[:500]` for a rough preview
 
 ## Requirements
 
-numpy
-matplotlib
+numpy, matplotlib
 
 ## Author
 Md. Farhan Tahsin Rifty
